@@ -1,1 +1,1 @@
-To Be Determined
+A directory of unrestricted pleasurable javascript learning activity.
