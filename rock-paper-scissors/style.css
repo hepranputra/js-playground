@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.move-btn {
+  width: 100px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.paper-btn {
+  margin-left: 16px;
+  margin-right: 16px;
+}
