@@ -1,9 +1,5 @@
-html {
-  font-family: sans-serif;
-}
-
 body {
-  width: 10%;
+  width: 50%;
   max-width: 800px;
   min-width: 480px;
   margin: 0 auto;
