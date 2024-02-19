@@ -1,4 +1,7 @@
-let randomNumber = Math.floor(Math.random() * 100) + 1;
+const maxNumber = 100;
+const chance = 10;
+
+let randomNumber = Math.floor(Math.random() * maxNumber) + 1;
 
 const guesses = document.querySelector(".guesses");
 const lastResult = document.querySelector(".lastResult");
@@ -33,7 +36,7 @@ function checkGuess() {
     lastResult.style.backgroundColor = "green";
     lowOrHi.textContent = "";
     setGameOver();
-  } else if (guessCount === 10) {
+  } else if (guessCount === chance) {
     lastResult.textContent = "!!!GAME OVER!!!";
     lowOrHi.textContent = "";
     setGameOver();
@@ -80,5 +83,5 @@ function resetGame() {
 
   lastResult.style.backgroundColor = "white";
 
-  randomNumber = Math.floor(Math.random() * 100) + 1;
+  randomNumber = Math.floor(Math.random() * maxNumber) + 1;
 }
