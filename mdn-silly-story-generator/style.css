@@ -1,5 +1,5 @@
 body {
-  font-family: helvetica, sans-serif;
+  font-family: Arial;
   width: 350px;
 }
 
@@ -11,14 +11,13 @@ div {
   padding-bottom: 20px;
 }
 
-input[type="text"] {
+#customname-input {
   padding: 5px;
   width: 150px;
 }
 
-p {
-  background: #ffc125;
-  color: #5e2612;
+.output-paragraph {
+  background: lightgreen;
   padding: 10px;
   visibility: hidden;
 }
